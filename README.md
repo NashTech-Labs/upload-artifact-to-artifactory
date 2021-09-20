@@ -1,8 +1,8 @@
 # upload-chart-to-artifactory
 
-This template will help to push artifact to artifactory if its now exists at the given artifactory path by downloading it from external source.
+This template will help to push artifact to artifactory if its not exists at the given artifactory path by downloading it from external source.
 
-Also we can use it in the dockerfile where sometime we requires different versions of some packages and artifacts to use in docker file.
+Also we can use it in the dockerfile where sometimes we requires different versions of some packages and artifacts to use in docker file.
 
 It will keeps our artifactory updated with all the artifacts and versions we are using regularly.
 
